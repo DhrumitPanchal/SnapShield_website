@@ -8,7 +8,7 @@ const Header: React.FC = () => {
   const pathName = usePathname();
   return (
     <header className="fixed w-full bg-white shadow-md z-50">
-      <div className="px-16 py-2 flex items-center justify-between ">
+      <div className="px-16 max-sm:px-4 py-2 flex items-center justify-between ">
         <div className="flex items-center">
           <Link href="/" className="flex items-center gap-2">
             <div className="h-12 w-12 flex justify-center items-center overflow-hidden  rounded-full   cursor-pointer ">

@@ -63,20 +63,20 @@ const AboutPage = () => {
   }, []);
   return (
     <Layout>
-      <main className="px-16 flex  flex-col ">
+      <main className="px-16 flex max-sm:px-4 flex-col ">
         <div
           id="cursor"
-          className="absolute h-6 w-6 hidden bg-black rounded-full"
+          className="absolute max-sm:opacity-0 h-6 w-6 hidden bg-black rounded-full"
         />
         <div
           id="box"
-          className="mt-20 flex items-center pl-20 h-30 bg-black text-white p-8 rounded-lg"
+          className="mt-20 flex items-center pl-20 max-sm:pl-10 h-30 bg-black text-white p-8 rounded-lg"
         >
-          <h1 className="text-5xl pb-2 font-bold ">About SNAPSHIELD</h1>
+          <h1 className="text-5xl pb-2 font-bold ">About Snapshield</h1>
         </div>
         <div className="flex flex-col   justify-between gap-8 mt-10 w-full">
-          <div className="flex  gap-20">
-            <div className="flex flex-col gap-2 w-1/2">
+          <div className="flex max-sm:flex-col gap-20 max-sm:gap-8">
+            <div className="flex flex-col gap-2 w-1/2 max-sm:w-full">
               <h2 className="text-2xl font-semibold">
                 Secure. Isolated. Reliable.
               </h2>
@@ -89,7 +89,7 @@ const AboutPage = () => {
               </p>
             </div>
 
-            <div className="flex flex-col gap-2 w-1/2">
+            <div className="flex flex-col gap-2 w-1/2 max-sm:w-full">
               <h2 className="text-2xl font-semibold">Our Mission</h2>
               <p>
                 Our goal is to empower users with a secure sandboxing solution
@@ -101,8 +101,8 @@ const AboutPage = () => {
             </div>
           </div>
 
-          <div className="flex gap-20 w-full">
-            <div className="flex flex-col gap-2 w-1/2">
+          <div className="flex max-sm:flex-col max-sm:gap-8 gap-20 w-full">
+            <div className="flex flex-col gap-2 w-1/2 max-sm:w-full">
               <h2 className="text-2xl font-semibold">Why Choose Us?</h2>
               <div className="flex flex-col gap-1">
                 <li>
@@ -129,7 +129,7 @@ const AboutPage = () => {
               </div>
             </div>
 
-            <div className="flex flex-col gap-2 w-1/2">
+            <div className="flex flex-col gap-2 w-1/2 max-sm:w-full">
               <h2 className="text-2xl font-semibold">Our Commitment</h2>
               <p>
                 {" "}
