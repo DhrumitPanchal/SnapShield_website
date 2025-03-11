@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 import Link from "next/link";
 import { MdDownload } from "react-icons/md";
 import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
+import Download from "./Download";
 
 const Hero: React.FC = () => {
   useEffect(() => {
@@ -41,10 +41,7 @@ const Hero: React.FC = () => {
         and running applications safely. Download the Snapshield App today and
         take control of your digital security.
       </p>
-      <button className="px-6 py-3 flex items-center mx-auto gap-4 rounded-md bg-gradient-to-r bg-black hover:bg-black/80 transition-colors duration-150 text-white font-semibold shadow-lg ">
-        <MdDownload className="text-2xl" />
-        <h2> Download</h2>
-      </button>
+      <Download />
     </section>
   );
 };
