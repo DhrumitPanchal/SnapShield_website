@@ -6,7 +6,8 @@ import { MdDownload } from "react-icons/md";
 function Download() {
   const handleDownload = () => {
     const url =
-      "https://media.githubusercontent.com/media/DhrumitPanchal/SnapShield_website/main/public/SnapShield.apk";
+      "https://download-directory.github.io/?url=https://github.com/DhrumitPanchal/bug_detection/tree/main/cli";
+
     const anchor = document.createElement("a");
     anchor.href = url;
     anchor.download = "SnapShield.apk";
